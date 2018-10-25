@@ -1,16 +1,15 @@
 body {
+  margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
 }
 
 header {
-  display: flex;
   position: fixed;
-  justify-content: center;
+  align-items: center;
   width: 100%;
   border-bottom: 1px solid seashell;
   background-color: black;
@@ -18,18 +17,10 @@ header {
   z-index: 1;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-}
-
-.logo img {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  padding: 10px 10px;
+header img {
   height: 50px;
+  padding-left: 10px;
+  color: seashell;
 }
 
 nav {
@@ -71,7 +62,24 @@ a {
   width: 100%;
 }
 
-h2 {
+h2, h3, h4 {
   margin: 0;
   padding: 10px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 }
