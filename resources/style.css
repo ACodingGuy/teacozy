@@ -71,13 +71,18 @@ h2, h3, h4 {
   padding: 10px;
 }
 
+.flex-container.items {
+width: 1200px;
+justify-content: center;
+}
+
 .item {
   padding: 5px;
 }
 
 .item img {
   height: 200px;
-  width: 330px;
+  width: 300px;
   margin: 10px;
   display: block;
 }
